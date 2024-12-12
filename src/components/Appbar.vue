@@ -2,7 +2,7 @@
 </script>
 
 <template>
-    <v-app-bar flat density="compact">
+    <v-app-bar flat density="compact" color="background-darken-1">
         <template v-slot:prepend>
             <v-app-bar-nav-icon></v-app-bar-nav-icon>
         </template>
@@ -24,9 +24,9 @@
 
             <v-btn icon="mdi-bell"></v-btn>
 
-            <v-badge dot color="primary">
-                <v-avatar color="primary" background-color="white" variant="outlined">
-                    <v-btn rounded="circle" color="primary" variant="flat" min-height="100%" min-width="100%">
+            <v-badge dot color="green">
+                <v-avatar color="white" background-color="white" variant="outlined">
+                    <v-btn rounded="circle" color="green-lighten-2" variant="flat" min-height="100%" min-width="100%">
                         <span class="text-white">JA</span>
                     </v-btn>
                 </v-avatar>
